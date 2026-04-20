@@ -1,0 +1,121 @@
+{
+  "nodes": [
+    {
+      "id": "Early_Blight",
+      "type": "Disease",
+      "name": "Early Blight"
+    },
+    {
+      "id": "Late_Blight",
+      "type": "Disease",
+      "name": "Late Blight"
+    },
+    {
+      "id": "Healthy",
+      "type": "Status",
+      "name": "Healthy"
+    },
+    {
+      "id": "eb_s1",
+      "type": "Symptom",
+      "name": "Dark brown spots with concentric rings on leaves"
+    },
+    {
+      "id": "eb_s2",
+      "type": "Symptom",
+      "name": "Yellow halos around lesions; older leaves affected first"
+    },
+    {
+      "id": "eb_c1",
+      "type": "Cause",
+      "name": "Fungus Alternaria solani; warm humid weather"
+    },
+    {
+      "id": "eb_t1",
+      "type": "Treatment",
+      "name": "Fungicides (chlorothalonil, mancozeb); remove infected leaves"
+    },
+    {
+      "id": "eb_p1",
+      "type": "Prevention",
+      "name": "Crop rotation; resistant varieties; avoid overhead irrigation"
+    },
+    {
+      "id": "lb_s1",
+      "type": "Symptom",
+      "name": "Water-soaked lesions that turn brown; white mold in humidity"
+    },
+    {
+      "id": "lb_s2",
+      "type": "Symptom",
+      "name": "Rapid spread; stems and tubers can be affected"
+    },
+    {
+      "id": "lb_c1",
+      "type": "Cause",
+      "name": "Oomycete Phytophthora infestans; cool wet conditions"
+    },
+    {
+      "id": "lb_t1",
+      "type": "Treatment",
+      "name": "Fungicides (copper, mancozeb); destroy severely infected plants"
+    },
+    {
+      "id": "lb_p1",
+      "type": "Prevention",
+      "name": "Certified seed; fungicide sprays; avoid planting in low areas"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Early_Blight",
+      "target": "eb_s1",
+      "relation": "has_symptom"
+    },
+    {
+      "source": "Early_Blight",
+      "target": "eb_s2",
+      "relation": "has_symptom"
+    },
+    {
+      "source": "Early_Blight",
+      "target": "eb_c1",
+      "relation": "has_cause"
+    },
+    {
+      "source": "Early_Blight",
+      "target": "eb_t1",
+      "relation": "has_treatment"
+    },
+    {
+      "source": "Early_Blight",
+      "target": "eb_p1",
+      "relation": "has_prevention"
+    },
+    {
+      "source": "Late_Blight",
+      "target": "lb_s1",
+      "relation": "has_symptom"
+    },
+    {
+      "source": "Late_Blight",
+      "target": "lb_s2",
+      "relation": "has_symptom"
+    },
+    {
+      "source": "Late_Blight",
+      "target": "lb_c1",
+      "relation": "has_cause"
+    },
+    {
+      "source": "Late_Blight",
+      "target": "lb_t1",
+      "relation": "has_treatment"
+    },
+    {
+      "source": "Late_Blight",
+      "target": "lb_p1",
+      "relation": "has_prevention"
+    }
+  ]
+}

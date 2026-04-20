@@ -1,0 +1,10 @@
+Potato Leaf Diseases: Early Blight and Late Blight
+
+Early Blight (Alternaria solani)
+Early blight is a fungal disease that affects potato leaves, stems, and tubers. Symptoms include dark brown spots with concentric rings on older leaves, often with a yellow halo. Lesions may merge and cause defoliation. The fungus thrives in warm, humid conditions and can survive on crop debris. Management includes crop rotation, use of resistant varieties, fungicide applications (e.g. chlorothalonil, mancozeb), and avoiding overhead irrigation to reduce leaf wetness.
+
+Late Blight (Phytophthora infestans)
+Late blight is caused by an oomycete and can destroy foliage and tubers quickly. Symptoms include water-soaked lesions that turn brown or black, with white mold on the undersides of leaves in humid conditions. Cool, wet weather favors spread. Control measures include using certified seed, applying fungicides (e.g. copper-based or mancozeb), destroying severely infected plants, and avoiding planting in low or poorly drained areas. This disease was responsible for the Irish potato famine.
+
+Healthy Plants
+Healthy potato plants have green leaves without spots or lesions. Good practices include proper spacing, balanced fertilization, and regular scouting for early signs of disease.
